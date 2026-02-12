@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Vtech Engineering</title>
+  <meta name="description" content="Contact Vtech Engineering for construction planning, engineering services, and project delivery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">V</span>
+        <span class="brand-text">Vtech Engineering</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" class="active btn">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false">
+        <svg class="icon icon-open" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="menu-overlay" data-menu-overlay></div>
+    <aside class="nav-mobile" id="mobile-menu" aria-hidden="true">
+      <div class="nav-mobile-head">
+        <span class="brand-text">Vtech Engineering</span>
+        <button class="menu-close" aria-label="Close menu">
+          <svg class="icon icon-close" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <nav class="nav-mobile-links" aria-label="Mobile">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-mobile-footer">
+        <p>Build with confidence. Design with precision.</p>
+        <a href="contact.html" class="btn full">Request a Quote</a>
+      </div>
+    </aside>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s scope your next construction project.</h1>
+        <p>Tell us about your timeline, budget, and delivery goals. We respond within one business day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="card">
+          <h3>Project Intake</h3>
+          <form class="contact-form">
+            <label>
+              Full Name
+              <input type="text" placeholder="Jane Doe" required />
+            </label>
+            <label>
+              Company / Organization
+              <input type="text" placeholder="Company name" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Project Type
+              <select>
+                <option>Commercial</option>
+                <option>Industrial</option>
+                <option>Infrastructure</option>
+                <option>Public Works</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label>
+              Project Details
+              <textarea rows="4" placeholder="Timeline, scope, location..."></textarea>
+            </label>
+            <button class="btn" type="submit">Submit Request</button>
+          </form>
+        </div>
+        <div>
+          <h3>Contact Information</h3>
+          <p>For immediate assistance or RFPs, reach out directly.</p>
+          <p><strong>Phone:</strong> +1 (214) 555-0185</p>
+          <p><strong>Email:</strong> hello@vtechengineering.com</p>
+          <p><strong>Office:</strong> 1200 Meridian Blvd, Suite 240, Dallas, TX 75201</p>
+          <div class="card">
+            <h4>Office Hours</h4>
+            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+            <p>Saturday: 9:00 AM - 1:00 PM</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Vtech Engineering</h3>
+        <p>Modern construction and civil engineering partner delivering complex builds across industrial, commercial, and public infrastructure.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>1200 Meridian Blvd, Suite 240<br />Dallas, TX 75201</p>
+        <p>+1 (214) 555-0185<br />hello@vtechengineering.com</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li>Design-Build Delivery</li>
+          <li>Construction Management</li>
+          <li>Preconstruction Planning</li>
+          <li>Project Controls</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Vtech Engineering. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
