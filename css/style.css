@@ -112,7 +112,7 @@ img {
 
 .btn {
   padding: 0.7rem 1.4rem;
-  border-radius: 999px;
+  border-radius: 8px;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #101214;
   font-weight: 700;
